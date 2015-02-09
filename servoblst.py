@@ -5,7 +5,7 @@ servos = {}
 
 class ServoController:
 	def __init__(self):
-		os.system('sudo ~/PiBits/ServoBlaster/user/servod')
+		os.system('sudo /home/pi/PiBits/ServoBlaster/user/servod')
 
 	def setAngle(self, servo_id, degrees):
 

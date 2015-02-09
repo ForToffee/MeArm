@@ -27,5 +27,7 @@ A class to control the servos using ServoBlaster, used by joystick.py
 #Requirements
 
 Flask - sudo pip install flask
+
 RPIO - sudo pip install rpio 
+
 ServoBlaster - https://github.com/richardghirst/PiBits/tree/master/ServoBlaster
